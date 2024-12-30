@@ -190,7 +190,7 @@
                 - 터미널
                     - github 가입한 이메일
                         > ssh-keygen -t rsa -C "이메일"
-                    - ssh-keygen -t rsa -C "edu2ucoc@gmail.com"
+                    - ssh-keygen -t rsa -C "yoho030905@gmail.com"
                         > 계속 엔터키 누르면 생성완료
                         ```
                             ....
@@ -213,9 +213,9 @@
 
         - 로컬  PC  사용자 등록
             - git config --global user.email "본인 github 이메일"
-                - git config --global user.email "edu2ucoc@gmail.com"
+                - git config --global user.email "yoho030905@gmail.com"
             - git config --global user.name "본인 github 이름"
-                - git config --global user.email "edu2ucoc"
+                - git config --global user.email "YunHwa0905"
 
 
     - 개발 프로젝트와 github 연동
@@ -256,7 +256,7 @@
                 git branch -M main
 
                 # 1회성, 로컬 저장소를 원격 저장소와 연결!!
-                git remote add origin https://github.com/edu2ucoc/frontend.git
+                git remote add origin https://github.com/YunHwa0905/frontend
 
                 # 푸시 : 로컬 저장소의 변경된 내용을 원격 저장소에 반영하라!!
                 # push <-> pull
@@ -265,4 +265,13 @@
                 git push -u origin main
                 ```
             4. 형상관리진행
-                
+                - 개인
+                    - 컴퓨터 구동
+                        - 수정된 내용 로컬 저장소 기준으로 최신화
+                            - git pull
+                        - 작업 -> 수정, 신규 추가
+                            - git add .
+                        - 커밋
+                            - git commit -m "Feat: xx"
+                        - 푸시 -> 원격
+                            - git push
