@@ -1,0 +1,22 @@
+[
+    {
+      "label":"A",
+      "data" : 700  
+    },
+    {
+        "label":"B",
+        "data" : 800  
+      },
+      {
+        "label":"C",
+        "data" : 900  
+      },
+      {
+        "label":"D",
+        "data" : 100  
+      },
+      {
+        "label":"E",
+        "data" : 200  
+      }
+]
